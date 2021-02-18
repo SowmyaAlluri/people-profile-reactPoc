@@ -1,0 +1,37 @@
+.img {
+    margin-top: -80px;
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+  }
+  
+  .card:visited,
+  .card:link {
+    transition: color 0.2s, background-color 0.2s;
+  }
+  .card:hover,
+  .card:active {
+    background-color: #dce2e4;
+    color: #fff;
+  }
+  .fab {
+    color: #fff;
+  }
+  .text {
+    word-spacing: 0%;
+    word-wrap: break-word;
+    letter-spacing: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #showcase {
+      min-height: 500px;
+    }
+    #showcase h1 {
+      font-size: 4rem;
+    }
+  
+    .mb-resp {
+      margin-bottom: 1rem;
+    }
+  }

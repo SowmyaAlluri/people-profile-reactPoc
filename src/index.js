@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Profiles from './components/Profiles/profiles'
+import NavHeader from './components/NavHeader/nav'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <NavHeader />
+    <Profiles />
   </React.StrictMode>,
   document.getElementById('root')
 );
